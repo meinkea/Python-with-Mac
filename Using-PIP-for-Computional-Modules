@@ -1,1 +1,19 @@
-Here
+# Using PIP to install computational modules
+Sadly, pip does not come with macOS's python (Apple removed it I guess).
+However, Python3 come with it by default, so once you installed it yourself, either though Homebrew or the Installer, you'll have pip. \^-^/
+
+So lets introduce you to pip (stands for PIP installs Python), a package manager that comes with python!
+
+# Using PIP
+1. open termianl
+2. type `pip install (module_you_want)`
+
+Let's try installing matplotlib!
+`pip install matplotlib`
+
+Go have lunch because that's it.  Realistically, the only legwork you'll need to do is just know the name of what you want, but you'll eventually get to know them because you use them so often, google search, website, forum post, or you hear about them from a friend.Here are some sources for places where you can discover more modules:
+Pandas - BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language
+https://pandas.pydata.org/
+
+NumPy - 
+http://www.numpy.org/
