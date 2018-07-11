@@ -106,26 +106,45 @@ note: _This is not the preffered method..._
 From here, watch this Python Programming tutorial series on youtube from thenewboston
 https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
 ##Basics
-Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (these are what I used to learn python)
-* 2 _to_ 5
-* 7 _to_ 21
-* 23
-* 28 _to_ 41
-* 50
-* 53 _to_56
-Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer, and you are prolly going to become bord after a while learning the basics.  So there's no point learning it all at once by watching these video as your not going to remeber it all.  Therefore, I recommend binging these at first (like your binging a Netflix series) and than only watching 2-3 vids a week after that.  That way you can explore cooler things like the libraries past this point.
+Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer, and you are prolly going to become bord after a while learning the basics.  So there's no point learning it all at once by watching these video as your not going to remeber it all.  Therefore, I recommend binging these at first (like your binging a Netflix series) and than only watching 2-3 vids a week after that.  That way you can explore cooler things like the libraries past this point.
+
+Basic | Comprehensive
+--- | ---
+2 | 2 _to_ 5
+7 _to_ 16 _and_ 21 | 7 _to_ 21
+23 | 23
+29 _to_ 33 _and_ 40 | 28 _to_ 41
+| 50
+| 53 _to_ 56
+18 Total | 
 
 
 ##Matplotlib
+Ploting library that can generate plots with few lines of code
+_If you have not already_, to install: `pip install matplotlib`
 
+A youtube series that you can pick out what exactly your interested in, by sentdex:
+https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
 
+Another comprehensive series can be found here, by Fluidic Colours:
+https://www.youtube.com/watch?v=b3lK639ymu4&list=PLNmACol6lYY5aGQtxghQTq0bHXYoIMORy
+(**note**: _polar plots are video number 24_)
 
-Pandas - BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language
+Offical website for Matplotlib
+sauce: https://matplotlib.org/
+It also has some notes for Matlab Users
 
-https://pandas.pydata.org/
-
-
-
-NumPy - 
+##Numpy
 
 http://www.numpy.org/
+
+Here is a link for Matlab users.
+
+
+
+##Pandas 
+Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
+It's good for relational data.
+
+sauce: https://pandas.pydata.org/
+
