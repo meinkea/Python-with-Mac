@@ -90,22 +90,22 @@ Go have lunch because that's it.  Realistically, the only legwork you'll need to
 # Open IDLE (Interactive Development Enviroment)
 The Python's IDLE is where you will code in python.  You can open in one of two methods.
 
-##Applications Folder (recommended)
+## Applications Folder (recommended)
 In your Applications folder, you should see:
 IDLE - the Developement Enviroment
 PythonLauncher - Handle what happens when you double click on python scrpits (I recommend for when you are starting out, having it open the IDLE)
 Build Applet - A tool too package Python scripts as standalone applications
 
-##Terminal
+## Terminal
 Type in termianl `IDLE`
 note: _This is not the preffered method..._
 
-#Learning Python
+# Learning Python
 
-#Start Learning Python
+# Start Learning Python
 From here, watch this Python Programming tutorial series on youtube from thenewboston
 https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
-##Basics
+## Basics
 Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer, and you are prolly going to become bord after a while learning the basics.  So there's no point learning it all at once by watching these video as your not going to remeber it all.  Therefore, I recommend binging these at first (like your binging a Netflix series) and than only watching 2-3 vids a week after that.  That way you can explore cooler things like the libraries past this point.
 
 Basic | Comprehensive
@@ -119,9 +119,16 @@ Basic | Comprehensive
 18 Total | 
 
 
-##Matplotlib
+## SciPy
+A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include the ones mentioned ahead of hear.
+
+sauce: https://www.scipy.org/
+
+
+## Matplotlib
 Ploting library that can generate plots with few lines of code
 _If you have not already_, to install: `pip install matplotlib`
+Analog of ploting in matlab
 
 A youtube series that you can pick out what exactly your interested in, by sentdex:
 https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
@@ -134,17 +141,93 @@ Offical website for Matplotlib
 sauce: https://matplotlib.org/
 It also has some notes for Matlab Users
 
-##Numpy
+## Numpy
+The python package for scientific/engineering computation.  It is convenient, fast, and uses less memory than normal Python list.  
 
+The official tutorials for NumPy can be found here
+https://docs.scipy.org/doc/numpy/user/quickstart.html
+
+The official site can be found here: 
 http://www.numpy.org/
 
 Here is a link for Matlab users.
+https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html
 
+Cool thing, is that NumPy uses BLAS, which takes advantage of multi core CPU's (which uou need to pay for in Matlab's Parallel Computing Toolbox)
 
+If you have a need for speed you can reinstall numpy to use more than 1 CPU
+sauce: http://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html
 
-##Pandas 
+If you need EXTREME parrallel speed (like we are almost approaching super computer level), you can add CuPy to NumPy.  This library in one line of code can take your NumPy array and use your graphics card (You comp has a REALLY high end quadro card btw that is MADE for this purpose) to shread through large data sets.
+sauce: https://cupy.chainer.org/
+
+## Pandas
 Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
-It's good for relational data.
+It's good for relational data. Also can iteract with a ton of file formats from what I remember, like cvc, txt, excell, etc...
 
 sauce: https://pandas.pydata.org/
 
+## IPython
+Interactive notebook with interactive visuals and GUI toolkits.  It's leverages the flexibility of python interpreters and even has high preformance tools for parallel computing.
+
+sauce: http://ipython.org/
+
+## Sympy
+Symbolic mathematics with python.  Has a full CAS system and aims to keep code as simple as possible.
+
+sauce: http://www.sympy.org/en/index.html
+
+## Python Resources for NI Hardware and Software
+You can take you Python scripts, and put them into a labview code.  
+(Imagine putting your Matlab scripts into your Labview testing equipement)
+
+You can have labview code wrap your python (great for embedding Matlab like routines in your testing equipement) and/or use python to call and wrap your labview code to interact with other equpiment, computers, servers, or data centers in your building in the cloud.
+
+sauce: http://www.ni.com/white-paper/53059/en/
+
+## GSL
+GNU Scientific Library is a numerical library for mainly C and C++.  But you bet you can use that in python!
+Heres a source outlining of everything this library has to offer...
+
+sauce: https://www.gnu.org/software/gsl/
+
+## Jupyter
+Evolving from IPython, it is an open-source web application that expands apon the whole notebooks idea.
+"create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
+It's writen in python, but supports over 40 languages now.
+It reminds me of mathmatica, take a looksy
+
+sauce: http://jupyter.org/
+
+## Matlab
+If your just really use to matlab, and you don't have to give it up.
+Python can call you matlab functions, and use best of both worlds!
+sauce: https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html
+
+Heck! If you had matlab, python, and labview on the same computer, you could wrap your matlab code in python and feed it to a labview test system.
+
+# PyVISA
+Python package tat enables you to control all kinds of measurement devices independently of the interface (ex. GPIB, RS232, USB, Ethernet, VXI, PXI etc...)
+
+Example code with a Keithley Multimeter with GPIB number 12, only needing three lines of code
+`>>>import visa
+>>>rm = visa.ReasourceManager()
+>>>rm.list_resources()
+('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')
+>>> inst = rm.open_resource('GPIB0::12::INSTR')
+>>> print(inst.query("*IDN?"))`
+Works on Window's Linux, and Mac
+Works with arbitrary adapters like National Instruments, Agilent, Tektronix, Stanford Research Systems
+
+sauce: http://pyvisa.readthedocs.io/en/stable/
+
+
+## SWIG, PyFort, ctypes, Cython, f2py and other glue librarys
+You might now see that it's a great glueing language.  Instead of reinventing the wheel or trying to be the best at everything, it can suck in and interface with about any major language.
+
+If you need speed of fast C, C++, or Fortran code, just use it from python! Here is about 5 different way you can do it.
+sauce: https://docs.scipy.org/doc/numpy-1.10.0/user/c-info.python-as-glue.html
+
+## FEniCS Project
+A downside to have python replace matlab is the fact that COMSOL has a lot enterprize connections, and have said they have been running into legal trouble when trying to implement python as a replacement for matlab.  However, there are other alternatives to COMSOL if your computer savy (or care to spend the time, as it's really an investment).
+Meet FEniCS Project, an open-source computing platform for solive partial differential equations.  It allows you to translate engineering and scientific models into finite element code.  You can use Python or C++ to interface with FEniCS, compute, than plot/analyze the results
