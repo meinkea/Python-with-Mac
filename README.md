@@ -43,7 +43,7 @@ II. GUI
       2. Open Utilities folder
       3. Open Terminal Application (you can add this to your dock)
       
-### Using Termianl
+### Using Terminal
 Command | Name | Laymen Terms 
 --- | --- | ---
 `pwd` | Print Working Directory | Tells you which folder you are in
