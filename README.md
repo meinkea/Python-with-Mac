@@ -1,17 +1,17 @@
 # Python-with-Mac
-Omnibus tutorial walk through setting up Python with macOS.  I'm calling this an omnibus tutorial because I am combinding links to other tutorials, documation, and articles that already do a great job at explaining certain topics already.  (So why reinvent the wheel?)  Anything I type up is to:
+Omnibus tutorial covering setting up Python with macOS, learning Python basics, and Engineering Python packages.  This combines tutorials, documation, and articles that already do a great job at explaining certain topics already; Why reinvent the wheel?  Anything typed up is to:
     - Fill in gaps inbetween tutorials and/or articles
     - Explain why/what you should read in a particular turtorial or atricle
     - Give digested information, expecially if the article or tutorial is really long and wordy for what it is explaining 
       (_no point in wasting time_).
-    - Give quick reference to go back to, to advoid of having to reopen the article.
+    - Give quick reference to go back to, to advoid of having to reopen the article for simple things.
 
-## Nomenclature I use (To avoid confusion)
+## * Nomenclature I use (To avoid confusion)
 1. Keystrokes:
-    * If I say: `SHIFT + CTRL + c`, that means press at the same time shift, control, and the letter c.
-    * If I say: `SHIFT - CTRL - c`, that means press sequentually shift, control, and the letter c.
+    * `SHIFT + CTRL + c`, means press at the same time shift, control, and the letter c.
+    * `SHIFT - CTRL - c`, means press sequentually shift, then control, then letter c.
 2. Directories
-    * In a directory if I use ( ) like: `/home/(user_name)/Documents/(youe_folder)`, they refer to something unique to what you named them.
+    * In a directory (file path) the ( ) used for in example: `/home/(user_name)/Documents/(youe_folder)`, refer to a name unique to what you named it.  Typically an account name or user chosen file name scheme.
 
 # Installing Python3
 Python2 comes default with OSx.  However, I recommend upgrading to seperate Python3 installation, because a seperate installation will avoid conflicts between your normal computer programs and your coding endevours.  This is important because even though you can use Python2 that comes with macOS, the Python Software Fondation does not recommend changing, altering, or deleteing these file associated with it, as this installation of python is used by Apple and third-party software. A good source for Macintosh can be found in the python's documentation, which provides a good source of documentation about using Python on macOS.
@@ -22,11 +22,11 @@ sauce: https://wiki.python.org/moin/MacPython
 
 Lastly, here a walk through of two methods to walk you through doing an installation of Python3, one of which I recommend over the other (the **Terminal Installation Method**).  It's less involved as it sounds, and often when you install modules it vastly easier using pip in terminal.
 
-## Python.org macOS installer (not recommended)
+## * Python.org macOS installer (not recommended)
 This method does not involve terminal and is here if you wish.  I do not recommend this because it does not expose you to terminal (something needed for PIP), you upgrading or reverting to previous versions of python is harder, does have the automatic tools of the **Terminal Installation Method** which ultimatly save you time, and I am not sure as to how seperate it keeps Python2 (macOS) and Python3 from each other.
 Link to download the Latest Python 3 Release https://www.python.org/downloads/mac-osx/
 
-## Teminal instalation Method (recommended)
+## * Teminal instalation Method (recommended)
 General Guide
   1. **How to open terminal** section - Need to know
   2. **Using Terminal** - can just reference
@@ -34,7 +34,7 @@ General Guide
 
 When it comes to installing and updating things on Unix like machines (like macOS), your about to be blown away how EASY it is to do with a package manager.  They are SUPPER useful ensemble of tools to automate installing, updating, configuring, and removing programs and modules.  It's helpful, but you don't need to _know_ terminal, but I do recommend becoming familiar with the couple of commands that are listed in the table under **Using Terminal**.  Lastly, Homebrew will install Python in a directory that macOS will never touch, and make it the default Python for you.  This keeps you happy, macOS happy, and it's third-party applications happy.
 
-### How to open Terminal
+### 1. How to open Terminal
 I. Quick shortcut to open terminal:
 
    1. type: `CMD +  SPACE` (_opens spotlight search_)
@@ -46,7 +46,7 @@ II. GUI
    2. Open Utilities folder
    3. Open Terminal Application (you can add this to your dock)
       
-### Using Terminal
+### 2. Using Terminal
 Command | Name | Laymen Terms 
 --- | --- | ---
 `pwd` | Print Working Directory | Tells you which folder you are in
@@ -60,7 +60,7 @@ Sauce: Introduction to the Mac OS X Command Line (Jim Hoskins)
 http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
 
 
-### Installing Python3 using Homebrew
+### 3. Installing Python3 using Homebrew
 1. Open Terminal
 2. Install Homebrew package manager
     `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
@@ -77,7 +77,7 @@ http://docs.python-guide.org/en/latest/starting/install3/osx/
 So lets introduce you to pip 
 
 # Quick intro to PIP
-When you installed Python3 it came with pip by default.  Pip stand for (stands for PIP installs Python); it is another wonderful package manager that comes with python!  So once you installed it yourself, either though Homebrew or through the Installer, you'll have pip. \^-^/
+When you installed Python3 it came with pip by default.  Pip stand for (stands for PIP installs Python); it is another wonderful package manager that comes with python!  So once you installed it yourself, either though Homebrew or through the Installer, you'll have pip. ^-^
 
 To use PIP, generally do this
 1. open termianl
@@ -87,25 +87,25 @@ To use PIP, generally do this
 Let's try installing matplotlib!
 `pip install matplotlib`
 
-Go have lunch because that's it.  Realistically, the only legwork you'll need to do is just know the name of what you want, but you'll eventually get to know them because you use them so often, google search, website, forum post, or you hear about them from a friend.Here are some sources for places where you can discover more modules:
+Go have lunch because that's it.  The only legwork you will ever need to do is to know the name of the package you want.  They can be found through google searchs, youtube, website, forum post, or other pythoneers.  A website to bookmark is PyPi, a python package index site where you can discover more modules:
+https://pypi.org/
+
 
 
 # Open IDLE (Interactive Development Enviroment)
 The Python's IDLE is where you will code in python.  You can open in one of two methods.
 
-## Applications Folder (recommended)
+## 1. Applications Folder (recommended)
 In your Applications folder, you should see:
 IDLE - the Developement Enviroment
 PythonLauncher - Handle what happens when you double click on python scrpits (I recommend for when you are starting out, having it open the IDLE)
 Build Applet - A tool too package Python scripts as standalone applications
 
-## Terminal
+## 2. Terminal
 Type in termianl `IDLE`
 note: _This is not the preffered method..._
 
 # Learning Python
-
-# Start Learning Python
 From here, watch this Python Programming tutorial series on youtube from thenewboston
 https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
 Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (as these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer.  Therefore, I recommend binging the videos in the Basics column in the table below.  That way you can have more time to explore cooler libraries that pertain more to you.  The Comprehensive column is there if you wanted to know more about basic Python..
@@ -120,11 +120,15 @@ na | 50
 na | 53 _to_ 56
 18 Total | 39 Total
 
-## SciPy
-A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include the ones mentioned ahead of hear.
+
+# Modules
+Here are a list of modules I like that I think you might be insterested in.
+
+## * SciPy
+A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include Matplotlib, NumPy, Pandas, and SymPy.
 sauce: https://www.scipy.org/
 
-## Matplotlib (recommended)
+## * Matplotlib (recommended)
 Ploting library that can generate plots with few lines of code
 _If you have not already_, to install: `pip install matplotlib`
 Analog of ploting in matlab
@@ -146,7 +150,7 @@ Offical website for Matplotlib
 sauce: https://matplotlib.org/
 It also has some notes for Matlab Users
 
-## Numpy (recommended)
+## * Numpy (recommended)
 The python package for scientific/engineering computation.  It is convenient, fast, and uses less memory than normal Python list.  
 
 The official tutorials for NumPy can be found here
@@ -166,7 +170,7 @@ sauce: http://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html
 If you need EXTREME parrallel speed (like we are almost approaching super computer level), you can add CuPy to NumPy.  This library in one line of code can take your NumPy array and use your graphics card (You comp has a REALLY high end quadro card btw that is MADE for this purpose) to shread through large data sets.
 sauce: https://cupy.chainer.org/
 
-## Pandas (recommended)
+## * Pandas (recommended)
 Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
 It's good for relational data. Also can iteract with a ton of file formats from what I remember, like cvc, txt, excell, etc...
 
@@ -175,17 +179,17 @@ sauce:
 
 sauce: https://pandas.pydata.org/
 
-## IPython
+## * IPython
 Interactive notebook with interactive visuals and GUI toolkits.  It's leverages the flexibility of python interpreters and even has high preformance tools for parallel computing.
 
 sauce: http://ipython.org/
 
-## Sympy
+## * Sympy
 Symbolic mathematics with python.  Has a full CAS system and aims to keep code as simple as possible.
 
 sauce: http://www.sympy.org/en/index.html
 
-## Python Resources for NI Hardware and Software
+## * Python Resources for NI Hardware and Software
 You can take you Python scripts, and put them into a labview code.  
 (Imagine putting your Matlab scripts into your Labview testing equipement)
 
@@ -193,13 +197,13 @@ You can have labview code wrap your python (great for embedding Matlab like rout
 
 sauce: http://www.ni.com/white-paper/53059/en/
 
-## GSL
+## * GSL
 GNU Scientific Library is a numerical library for mainly C and C++.  But you bet you can use that in python!
 Heres a source outlining of everything this library has to offer...
 
 sauce: https://www.gnu.org/software/gsl/
 
-## Jupyter
+## * Jupyter
 Evolving from IPython, it is an open-source web application that expands apon the whole notebooks idea.
 "create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
 It's writen in python, but supports over 40 languages now.
@@ -207,35 +211,75 @@ It reminds me of mathmatica, take a looksy
 
 sauce: http://jupyter.org/
 
-## Matlab
-If your just really use to matlab, and you don't have to give it up.
-Python can call you matlab functions, and use best of both worlds!
+## * Matlab
+If you wanna keep matlab, and you don't have to give it up.
+Python can call your matlab functions and code, and use best of both worlds!
+
 sauce: https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html
 
-Heck! If you had matlab, python, and labview on the same computer, you could wrap your matlab code in python and feed it to a labview test system.
+If you had matlab, python, and labview on the same computer, you could wrap your matlab code in python and feed it to a labview test system.
 
-# PyVISA
-Python package tat enables you to control all kinds of measurement devices independently of the interface (ex. GPIB, RS232, USB, Ethernet, VXI, PXI etc...)
+## * Small Matlab to Python compiler, LibreMate, and OMPC
+If you decided to make a complete switch over from Matlab to Python, you don't need to rewrite all of your Matlab code (although rewriting some of them would be great practice).  Instcompetesead, there are Source-to-Source Compilers.  These essentually rewrite your Matlab code into Python code, mostly using the packages mentioned earlier.
+
+Forum: https://stackoverflow.com/questions/9845292/a-tool-to-convert-matlab-code-to-python
+
+# * PyVISA
+PyVISA package enables you to control all kinds of measurement devices independently of the interface (ex. GPIB, RS232, USB, Ethernet, VXI, PXI etc...)
 
 Example code with a Keithley Multimeter with GPIB number 12, only needing three lines of code
 `>>>import visa
+
 >>>rm = visa.ReasourceManager()
+
 >>>rm.list_resources()
+
 ('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')
+
 >>> inst = rm.open_resource('GPIB0::12::INSTR')
+
 >>> print(inst.query("*IDN?"))`
+
 Works on Window's Linux, and Mac
 Works with arbitrary adapters like National Instruments, Agilent, Tektronix, Stanford Research Systems
 
-sauce: http://pyvisa.readthedocs.io/en/stable/
+Site: http://pyvisa.readthedocs.io/en/stable/
 
 
-## SWIG, PyFort, ctypes, Cython, f2py and other glue librarys
-You might now see that it's a great glueing language.  Instead of reinventing the wheel or trying to be the best at everything, it can suck in and interface with about any major language.
+## * SWIG, PyFort, ctypes, Cython, f2py and other glue librarys
+You may learn that Python is a great glueing language.  Instead of reinventing the wheel or trying to be the best at everything, it can wrap around and interface with about any major language.
 
 If you need speed of fast C, C++, or Fortran code, just use it from python! Here is about 5 different way you can do it.
-sauce: https://docs.scipy.org/doc/numpy-1.10.0/user/c-info.python-as-glue.html
 
-## FEniCS Project
-A downside to have python replace matlab is the fact that COMSOL has a lot enterprize connections, and have said they have been running into legal trouble when trying to implement python as a replacement for matlab.  However, there are other alternatives to COMSOL if your computer savy (or care to spend the time, as it's really an investment).
-Meet FEniCS Project, an open-source computing platform for solive partial differential equations.  It allows you to translate engineering and scientific models into finite element code.  You can use Python or C++ to interface with FEniCS, compute, than plot/analyze the results
+Site: https://docs.scipy.org/doc/numpy-1.10.0/user/c-info.python-as-glue.html
+
+## * FEniCS Project
+COMSOL cannot take Python code, how it takes Matlab code.  There is a forum here talking about how COMSOL and python on the COMSOL website, but most is really speculation in my opinion.  
+
+Forum: https://www.comsol.com/forum/thread/107812/python-for-comsol
+
+I personally don't think COMSOL will ever make an API to interface with Python.  Not because Python can't, but because COMSOL probably has an agreement with Matlab.  There are more forum post talking about how people are stuck on Matlab, just because they want/need to use COMSOL.  It's just my reasoning for why based on what I have read online, and I want to make sure you don't get any false hopes.
+
+That said, it's not all doom and gloom.  In the open-source community, if something is needed, people make it.  There are other widely known alternatives to COMSOL, Ansys, and Seimens NX.  They sometimes require computer savviness (or time spent, as it is really investment).
+Meet FEniCS Project, an open-source computing platform for solive partial differential equations.  It allows you to translate engineering and scientific models into finite element code.  Written in C and C++, you can use Python or C++ to interface with FEniCS, compute, than plot/analyze the results.
+
+## * Elmer
+Elmer is a Muliphysics Simulation Software that competes against COMSOL.
+
+site: https://www.csc.fi/web/elmer/elmer
+
+It does have an accoustics module.  Here is a youtube video showing it.
+
+youtube: https://www.youtube.com/watch?v=dfLHVUcvnDo
+
+Unlike COMSOL, Elmer does allow Python code to run.  You can actually choose to run you Python code as C code, or as TCL code.
+
+wiki: https://wiki.python.org/moin/elmer
+
+A forum discussing a simulation comparison between Elmer and COMSOL, by a user.
+Forum: http://www.elmerfem.org/forum/viewtopic.php?t=4306
+
+## * Coding COMSOL with Python
+I know this contradicts what was said in the the past two FEM Softwares, Elmer and FEniCS Project, but you can code COMSOL with Python.  This however is a little weird to think about.  COMSOL has two API's, one for Matlab and one for Java.  You essentually use the Java API with Python, as this person did for his thesis.
+
+github: https://github.com/dilzeem/thesis/blob/master/thesis.org
