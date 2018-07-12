@@ -228,13 +228,13 @@ Forum: https://stackoverflow.com/questions/9845292/a-tool-to-convert-matlab-code
 PyVISA package enables you to control all kinds of measurement devices independently of the interface (ex. GPIB, RS232, USB, Ethernet, VXI, PXI etc...)
 
 Example code with a Keithley Multimeter with GPIB number 12, only needing three lines of code
-`>>>import visa
+`\>/>>import visa
 
 >>>rm = visa.ReasourceManager()
 
 >>>rm.list_resources()
 
-('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')
+'('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')'
 
 >>> inst = rm.open_resource('GPIB0::12::INSTR')
 
