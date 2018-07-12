@@ -139,7 +139,7 @@ A good start for computing with Python.  Involves a large collection of open sou
 ## • Matplotlib (recommended)
 Ploting library that can generate plots with few lines of code
 _If you have not already_, to install: `pip install matplotlib`
-Analog of ploting in matlab
+Analog of ploting in Matlab
 
 A youtube series that you can pick out what exactly your interested in, by sentdex, <br />
  - youtube: https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
@@ -221,11 +221,11 @@ It reminds me of Mathmatica, take a looksy, <br />
  - Official site: http://jupyter.org/
 
 ## • Matlab
-If you wanna keep matlab, and you don't have to give it up.
-Python can call your matlab functions and code, and use best of both worlds! <br />
+If you wanna keep Matlab, and you don't have to give it up.
+Python can call your Matlab functions and code, and use best of both worlds! <br />
  - doc: https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html
 
-If you had Matlab, Python, and Labview on the same computer, you could wrap your matlab code in Python and feed it to a labview test system.
+If you had Matlab, Python, and Labview on the same computer, you could wrap your Matlab code in Python and feed it to a labview test system.
 
 ## • Small Matlab to Python compiler, LibreMate, and OMPC
 If you decided to make a complete switch over from Matlab to Python, you don't need to rewrite all of your Matlab code (although rewriting some of them would be great practice).  Instcompetesead, there are Source-to-Source Compilers.  These essentually rewrite your Matlab code into Python code, mostly using the packages mentioned earlier.
