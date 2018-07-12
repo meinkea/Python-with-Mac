@@ -18,7 +18,7 @@ Python2 comes default with OSx.  However, I recommend upgrading to seperate Pyth
 
   Official doc: https://docs.python.org/3.7/using/mac.html
 
-There is also the MacPython wiki
+There is also the MacPython wiki,
 
   Official wiki: https://wiki.python.org/moin/MacPython
 
@@ -59,7 +59,7 @@ Command | Name | Laymen Terms
 `cd ..` | | Backs out of the folder your in
 `cd ~` | | ~ is short hand for homefolder
 
-Introduction to the Mac OS X Command Line, by Jim Hoskins
+Introduction to the Mac OS X Command Line, by Jim Hoskins,
 
   article: http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
 
@@ -73,7 +73,7 @@ Introduction to the Mac OS X Command Line, by Jim Hoskins
     `brew install python`
 **Done!**
 
-Installing Python3 on Mac OS X, by Kenneth Reitz
+Installing Python3 on Mac OS X, by Kenneth Reitz,
 
   article: http://docs.python-guide.org/en/latest/starting/install3/osx/
 
@@ -108,7 +108,7 @@ Type in termianl `IDLE`
 note: _This is not the preffered method..._
 
 # Learning Python
-From here, watch this Python Programming tutorial series on youtube from thenewboston.
+From here, watch this Python Programming tutorial series on youtube from thenewboston,
 
   youtube: https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
 
@@ -215,7 +215,8 @@ You can have labview code wrap your python (great for embedding Matlab like rout
 
 ## • GSL
 GNU Scientific Library is a numerical library for mainly C and C++.  But you bet you can use that in python!
-Heres a source outlining of everything this library has to offer...
+
+Heres a source outlining of everything this library has to offer,
 
   site: https://www.gnu.org/software/gsl/
 
@@ -223,7 +224,8 @@ Heres a source outlining of everything this library has to offer...
 Evolving from IPython, it is an open-source web application that expands apon the whole notebooks idea.
 "create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more."
 It's writen in python, but supports over 40 languages now.
-It reminds me of mathmatica, take a looksy
+
+It reminds me of mathmatica, take a looksy,
 
   Official site: http://jupyter.org/
 
