@@ -65,7 +65,7 @@ Introduction to the Mac OS X Command Line, by Jim Hoskins
 
 ### 3. Installing Python3 using Homebrew
 1. Open Terminal
-2. Install Homebrew package manager
+2. Install Homebrew package manager 
     `ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 3. Insert Homebrew directory at the top of your PATH enviroment variable 
     `export PATH=/usr/local/bin:/usr/local/sbin:$PATH`
