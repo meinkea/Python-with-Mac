@@ -83,13 +83,13 @@ When you installed Python3 it came with pip by default.  Pip stand for (stands f
 
 To use PIP, generally do this
 1. open termianl
-2. type `pip install (module_you_want)`
+2. type `pip install (package_you_want)`
 **Done!**
 
 Let's try installing matplotlib!
 `pip install matplotlib`
 
-Go have lunch because that's it.  The only legwork you will ever need to do is to know the name of the package you want.  They can be found through google searchs, youtube, website, forum post, or other pythoneers.  A website to bookmark is PyPi, a python package index site where you can discover more modules:
+Go have lunch because that's it.  The only legwork you will ever need to do is to know the name of the package you want.  They can be found through google searchs, youtube, website, forum post, or other pythoneers.  A website to bookmark is PyPi, a python package index site where you can discover more packages:
 https://pypi.org/
 
 
@@ -123,8 +123,8 @@ na | 53 _to_ 56
 18 Total | 39 Total
 
 
-# Modules
-Here are a list of modules I like that I think you might be insterested in.
+# Packages
+Here are a list of packages I like that I think you might be insterested in.
 
 ## * SciPy
 A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include Matplotlib, NumPy, Pandas, and SymPy.
