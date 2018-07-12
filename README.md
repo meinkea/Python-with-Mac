@@ -28,9 +28,9 @@ Link to download the Latest Python 3 Release https://www.python.org/downloads/ma
 
 ## Teminal instalation Method (recommended)
 General Guide
-**How to open terminal** section - Need to know
-**Using Terminal** - can just reference
-**Installing Python3 using Homebrew** - can just follow along
+  1. **How to open terminal** section - Need to know
+  2. **Using Terminal** - can just reference
+  3. **Installing Python3 using Homebrew** - can just follow along
 
 When it comes to installing and updating things on Unix like machines (like macOS), your about to be blown away how EASY it is to do with a package manager.  They are SUPPER useful ensemble of tools to automate installing, updating, configuring, and removing programs and modules.  It's helpful, but you don't need to _know_ terminal, but I do recommend becoming familiar with the couple of commands that are listed in the table under **Using Terminal**.  Lastly, Homebrew will install Python in a directory that macOS will never touch, and make it the default Python for you.  This keeps you happy, macOS happy, and it's third-party applications happy.
 
