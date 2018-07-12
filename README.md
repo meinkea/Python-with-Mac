@@ -36,12 +36,15 @@ When it comes to installing and updating things on Unix like machines (like macO
 
 ### How to open Terminal
 I. Quick shortcut to open terminal:
-      1. type: `CMD +  SPACE` (_opens spotlight search_)
-      2. type: `terminal - RETURN` (_opens terminal_)
+
+   1. type: `CMD +  SPACE` (_opens spotlight search_)
+   2. type: `terminal - RETURN` (_opens terminal_)
+
 II. GUI
-      1. Open Applictions folder
-      2. Open Utilities folder
-      3. Open Terminal Application (you can add this to your dock)
+    
+   1. Open Applictions folder
+   2. Open Utilities folder
+   3. Open Terminal Application (you can add this to your dock)
       
 ### Using Terminal
 Command | Name | Laymen Terms 
@@ -105,8 +108,7 @@ note: _This is not the preffered method..._
 # Start Learning Python
 From here, watch this Python Programming tutorial series on youtube from thenewboston
 https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
-## Basics
-Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer, and you are prolly going to become bord after a while learning the basics.  So there's no point learning it all at once by watching these video as your not going to remeber it all.  Therefore, I recommend binging these at first (like your binging a Netflix series) and than only watching 2-3 vids a week after that.  That way you can explore cooler things like the libraries past this point.
+Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (as these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer.  Therefore, I recommend binging the videos in the Basics column in the table below.  That way you can have more time to explore cooler libraries that pertain more to you.  The Comprehensive column is there if you wanted to know more about basic Python..
 
 Basic | Comprehensive
 --- | ---
@@ -114,18 +116,15 @@ Basic | Comprehensive
 7 _to_ 16 _and_ 21 | 7 _to_ 21
 23 | 23
 29 _to_ 33 _and_ 40 | 28 _to_ 41
-| 50
-| 53 _to_ 56
-18 Total | 
-
+na | 50
+na | 53 _to_ 56
+18 Total | 39 Total
 
 ## SciPy
 A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include the ones mentioned ahead of hear.
-
 sauce: https://www.scipy.org/
 
-
-## Matplotlib
+## Matplotlib (recommended)
 Ploting library that can generate plots with few lines of code
 _If you have not already_, to install: `pip install matplotlib`
 Analog of ploting in matlab
@@ -133,15 +132,21 @@ Analog of ploting in matlab
 A youtube series that you can pick out what exactly your interested in, by sentdex:
 https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
 
+A continuation of the previous series, going into 3D plots:
+https://www.youtube.com/watch?v=ZlpFQNVhB7I&list=PLQVvvaa0QuDe60TfxLrJzdQEacMEItxl-
+
+Here is a forum post talking about plotting in polar:
+https://stackoverflow.com/questions/36816537/spherical-coordinates-plot-in-matplotlib
+
 Another comprehensive series can be found here, by Fluidic Colours:
 https://www.youtube.com/watch?v=b3lK639ymu4&list=PLNmACol6lYY5aGQtxghQTq0bHXYoIMORy
-(**note**: _polar plots are video number 24_)
+(**note**: _I recommend polar plots, video number 24, as I believe this pertains to you_)
 
 Offical website for Matplotlib
 sauce: https://matplotlib.org/
 It also has some notes for Matlab Users
 
-## Numpy
+## Numpy (recommended)
 The python package for scientific/engineering computation.  It is convenient, fast, and uses less memory than normal Python list.  
 
 The official tutorials for NumPy can be found here
@@ -161,9 +166,12 @@ sauce: http://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html
 If you need EXTREME parrallel speed (like we are almost approaching super computer level), you can add CuPy to NumPy.  This library in one line of code can take your NumPy array and use your graphics card (You comp has a REALLY high end quadro card btw that is MADE for this purpose) to shread through large data sets.
 sauce: https://cupy.chainer.org/
 
-## Pandas
+## Pandas (recommended)
 Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
 It's good for relational data. Also can iteract with a ton of file formats from what I remember, like cvc, txt, excell, etc...
+
+A youtube series showing how to use this useful library
+sauce: 
 
 sauce: https://pandas.pydata.org/
 
