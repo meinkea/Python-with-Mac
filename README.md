@@ -15,10 +15,10 @@ Omnibus tutorial covering setting up Python with macOS, learning Python basics, 
 
 # Installing Python3
 Python2 comes default with OSx.  However, I recommend upgrading to seperate Python3 installation, because a seperate installation will avoid conflicts between your normal computer programs and your coding endevours.  This is important because even though you can use Python2 that comes with macOS, the Python Software Fondation does not recommend changing, altering, or deleteing these file associated with it, as this installation of python is used by Apple and third-party software. A good source for Macintosh can be found in the python's documentation, which provides a good source of documentation about using Python on macOS.
-sauce: https://docs.python.org/3.7/using/mac.html
+    sauce: https://docs.python.org/3.7/using/mac.html
 
 There is also the MacPython wiki
-wiki: https://wiki.python.org/moin/MacPython
+    wiki: https://wiki.python.org/moin/MacPython
 
 Lastly, here a walk through of two methods to walk you through doing an installation of Python3, one of which I recommend over the other (the **Terminal Installation Method**).  It's less involved as it sounds, and often when you install a pacakge, it vastly easier than an installer.
 
@@ -27,11 +27,9 @@ This method does not involve terminal and is here if you wish.  I do not recomme
 Link to download the Latest Python 3 Release: https://www.python.org/downloads/mac-osx/
 
 ## • Teminal instalation Method (recommended)
-General Guide
+ Outline
   1. **How to open terminal** section - Need to know
-  2. **Using 
-  
-  Terminal** - can just reference
+  2. **Using Terminal** - can just reference
   3. **Installing Python3 using Homebrew** - can just follow along
 
 When it comes to installing and updating things on Unix like machines (like macOS), your about to be blown away how EASY it is to do with a package manager.  They are SUPPER useful ensemble of tools to automate installing, updating, configuring, and removing programs and modules.  It's helpful, but you don't need to _know_ terminal, but I do recommend becoming familiar with the couple of commands that are listed in the table under **Using Terminal**.  Lastly, Homebrew will install Python in a directory that macOS will never touch, and make it the default Python for you.  This keeps you happy, macOS happy, and it's third-party applications happy.
