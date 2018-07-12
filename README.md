@@ -15,16 +15,19 @@ Omnibus tutorial covering setting up Python with macOS, learning Python basics, 
 
 # Installing Python3
 Python2 comes default with OSx.  However, I recommend upgrading to seperate Python3 installation, because a seperate installation will avoid conflicts between your normal computer programs and your coding endevours.  This is important because even though you can use Python2 that comes with macOS, the Python Software Fondation does not recommend changing, altering, or deleteing these file associated with it, as this installation of python is used by Apple and third-party software. A good source for Macintosh can be found in the python's documentation, which provides a good source of documentation about using Python on macOS.
-    sauce: https://docs.python.org/3.7/using/mac.html
+
+  Official doc: https://docs.python.org/3.7/using/mac.html
 
 There is also the MacPython wiki
-    wiki: https://wiki.python.org/moin/MacPython
+
+  Official wiki: https://wiki.python.org/moin/MacPython
 
 Lastly, here a walk through of two methods to walk you through doing an installation of Python3, one of which I recommend over the other (the **Terminal Installation Method**).  It's less involved as it sounds, and often when you install a pacakge, it vastly easier than an installer.
 
 ## • Python.org macOS installer (not recommended)
 This method does not involve terminal and is here if you wish.  I do not recommend this because it does not expose you to terminal (something needed for PIP), you upgrading or reverting to previous versions of python is harder, does have the automatic tools of the **Terminal Installation Method** which ultimatly save you time, and I am not sure as to how seperate it keeps Python2 (macOS) and Python3 from each other.
-Link to download the Latest Python 3 Release: https://www.python.org/downloads/mac-osx/
+
+  Link to download the Latest Python 3 Release: https://www.python.org/downloads/mac-osx/
 
 ## • Teminal instalation Method (recommended)
  Outline
@@ -57,8 +60,8 @@ Command | Name | Laymen Terms
 `cd ~` | | ~ is short hand for homefolder
 
 Introduction to the Mac OS X Command Line, by Jim Hoskins
-Article: http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
 
+  article: http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironments-ref
 
 ### 3. Installing Python3 using Homebrew
 1. Open Terminal
@@ -71,7 +74,9 @@ Article: http://docs.python-guide.org/en/latest/dev/virtualenvs/#virtualenvironm
 **Done!**
 
 Installing Python3 on Mac OS X, by Kenneth Reitz
-Article: http://docs.python-guide.org/en/latest/starting/install3/osx/
+
+  article: http://docs.python-guide.org/en/latest/starting/install3/osx/
+
 Now time for pip!
 
 # Quick intro to PIP
@@ -86,9 +91,8 @@ Let's try installing matplotlib!
 `pip install matplotlib`
 
 Go have lunch because that's it.  The only legwork you will ever need to do is to know the name of the package you want.  They can be found through google searchs, youtube, website, forum post, or other pythoneers.  A website to bookmark is PyPi, a python package index site where you can discover more packages.
-site: https://pypi.org/
 
-
+  Official site: https://pypi.org/
 
 # Open IDLE (Interactive Development Enviroment)
 The Python's IDLE is where you will code in python.  You can open in one of two methods.
@@ -104,8 +108,10 @@ Type in termianl `IDLE`
 note: _This is not the preffered method..._
 
 # Learning Python
-From here, watch this Python Programming tutorial series on youtube from thenewboston
-https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+From here, watch this Python Programming tutorial series on youtube from thenewboston.
+
+  youtube: https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_
+
 Even if you have a higher version like 3.7, as he used 3.4 in the tutorial, it will work just fine at showing you all the basics in python.  I recommend watching videos (as these are what I used to learn python).  Python is extremely powerful and has LOTS of features, data types, and high level abstracts.  However, one might not be interest in *everything* python has to offer.  Therefore, I recommend binging the videos in the Basics column in the table below.  That way you can have more time to explore cooler libraries that pertain more to you.  The Comprehensive column is there if you wanted to know more about basic Python..
 
 Basic | Comprehensive
@@ -120,11 +126,12 @@ na | 53 _to_ 56
 
 
 # Packages
-Here are a list of packages I like that I think you might be insterested in.
+Here are a list of packages you might be insterested in.
 
 ## • SciPy
 A good start for computing with python.  Involves a large collection of open source computation and ease of use libraries, which include Matplotlib, NumPy, Pandas, and SymPy.
-site: https://www.scipy.org/
+
+  Official site: https://www.scipy.org/
 
 ## • Matplotlib (recommended)
 Ploting library that can generate plots with few lines of code
@@ -132,60 +139,71 @@ _If you have not already_, to install: `pip install matplotlib`
 Analog of ploting in matlab
 
 A youtube series that you can pick out what exactly your interested in, by sentdex,
-youtube: https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
+
+  youtube: https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF
 
 A continuation of the previous series, going into 3D plots,
-youtube: https://www.youtube.com/watch?v=ZlpFQNVhB7I&list=PLQVvvaa0QuDe60TfxLrJzdQEacMEItxl-
+
+  youtube: https://www.youtube.com/watch?v=ZlpFQNVhB7I&list=PLQVvvaa0QuDe60TfxLrJzdQEacMEItxl-
 
 Here is a forum post talking about plotting in polar,
-youtube: https://stackoverflow.com/questions/36816537/spherical-coordinates-plot-in-matplotlib
+
+  youtube: https://stackoverflow.com/questions/36816537/spherical-coordinates-plot-in-matplotlib
 
 Another comprehensive series can be found here, by Fluidic Colours,
-youtube: https://www.youtube.com/watch?v=b3lK639ymu4&list=PLNmACol6lYY5aGQtxghQTq0bHXYoIMORy
+
+  youtube: https://www.youtube.com/watch?v=b3lK639ymu4&list=PLNmACol6lYY5aGQtxghQTq0bHXYoIMORy
+
 (**note**: _I recommend polar plots, video number 24, as I believe this pertains to you_)
 
 Offical website for Matplotlib,
-site: https://matplotlib.org/
+
+  Official site: https://matplotlib.org/
+
 It also has some notes for Matlab Users
 
 ## • Numpy (recommended)
 The python package for scientific/engineering computation.  It is convenient, fast, and uses less memory than normal Python list.  
 
 The official tutorials for NumPy can be found here,
-site: https://docs.scipy.org/doc/numpy/user/quickstart.html
 
-Official site, 
-site: http://www.numpy.org/
+  doc: https://docs.scipy.org/doc/numpy/user/quickstart.html
+
+  Official site: http://www.numpy.org/
 
 Here is a link for Matlab users,
-Article: https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html
+
+  article: https://docs.scipy.org/doc/numpy/user/numpy-for-matlab-users.html
 
 Cool thing, is that NumPy uses BLAS, which takes advantage of multi core CPU's (which uou need to pay for in Matlab's Parallel Computing Toolbox)
 
 If you have a need for speed you can reinstall numpy to use more than 1 CPU,
-Article: http://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html
+
+  article: http://scipy-cookbook.readthedocs.io/items/ParallelProgramming.html
 
 If you need EXTREME parrallel speed (like we are almost approaching super computer level), you can add CuPy to NumPy.  This library in one line of code can take your NumPy array and use your graphics card (You comp has a REALLY high end quadro card btw that is MADE for this purpose) to shread through large data sets.
-site: https://cupy.chainer.org/
+
+  site: https://cupy.chainer.org/
 
 ## • Pandas (recommended)
 Library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language. 
 It's good for relational data. Also can iteract with a ton of file formats from what I remember, like cvc, txt, excell, etc...
 
-A youtube series showing how to use this useful library
-sauce: 
+A youtube series showing how to use this useful library,
 
-sauce: https://pandas.pydata.org/
+  youtube: https://www.youtube.com/watch?v=Iqjy9UqKKuo
+
+  Official site: https://pandas.pydata.org/
 
 ## • IPython
 Interactive notebook with interactive visuals and GUI toolkits.  It's leverages the flexibility of python interpreters and even has high preformance tools for parallel computing.
 
-sauce: http://ipython.org/
+  Official site: http://ipython.org/
 
 ## • Sympy
 Symbolic mathematics with python.  Has a full CAS system and aims to keep code as simple as possible.
 
-sauce: http://www.sympy.org/en/index.html
+  Official site: http://www.sympy.org/en/index.html
 
 ## • Python Resources for NI Hardware and Software
 You can take you Python scripts, and put them into a labview code.  
@@ -193,13 +211,13 @@ You can take you Python scripts, and put them into a labview code.
 
 You can have labview code wrap your python (great for embedding Matlab like routines in your testing equipement) and/or use python to call and wrap your labview code to interact with other equpiment, computers, servers, or data centers in your building in the cloud.
 
-sauce: http://www.ni.com/white-paper/53059/en/
+  site: http://www.ni.com/white-paper/53059/en/
 
 ## • GSL
 GNU Scientific Library is a numerical library for mainly C and C++.  But you bet you can use that in python!
 Heres a source outlining of everything this library has to offer...
 
-sauce: https://www.gnu.org/software/gsl/
+  site: https://www.gnu.org/software/gsl/
 
 ## • Jupyter
 Evolving from IPython, it is an open-source web application that expands apon the whole notebooks idea.
@@ -207,20 +225,20 @@ Evolving from IPython, it is an open-source web application that expands apon th
 It's writen in python, but supports over 40 languages now.
 It reminds me of mathmatica, take a looksy
 
-sauce: http://jupyter.org/
+  Official site: http://jupyter.org/
 
 ## • Matlab
 If you wanna keep matlab, and you don't have to give it up.
 Python can call your matlab functions and code, and use best of both worlds!
 
-sauce: https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html
+  doc: https://www.mathworks.com/help/matlab/matlab_external/call-user-script-and-function-from-python.html
 
 If you had matlab, python, and labview on the same computer, you could wrap your matlab code in python and feed it to a labview test system.
 
 ## • Small Matlab to Python compiler, LibreMate, and OMPC
 If you decided to make a complete switch over from Matlab to Python, you don't need to rewrite all of your Matlab code (although rewriting some of them would be great practice).  Instcompetesead, there are Source-to-Source Compilers.  These essentually rewrite your Matlab code into Python code, mostly using the packages mentioned earlier.
 
-Forum: https://stackoverflow.com/questions/9845292/a-tool-to-convert-matlab-code-to-python
+  forum: https://stackoverflow.com/questions/9845292/a-tool-to-convert-matlab-code-to-python
 
 ## • PyVISA
 PyVISA package enables you to control all kinds of measurement devices independently of the interface (ex. GPIB, RS232, USB, Ethernet, VXI, PXI etc...)
@@ -232,7 +250,7 @@ Example code with a Keithley Multimeter with GPIB number 12, only needing three 
 
 >>> rm.list_resources()
 
-'('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')'
+    ('ASRL1::INSTR', 'ASRL2::INSTR', 'GPIB0::12::INSTR')
 
 >>> inst = rm.open_resource('GPIB0::12::INSTR')
 
@@ -241,16 +259,14 @@ Example code with a Keithley Multimeter with GPIB number 12, only needing three 
 Works on Window's Linux, and Mac
 Works with arbitrary adapters like National Instruments, Agilent, Tektronix, Stanford Research Systems
 
-Site: http://pyvisa.readthedocs.io/en/stable/
-
+  article: http://pyvisa.readthedocs.io/en/stable/
 
 ## • SWIG, PyFort, ctypes, Cython, f2py and other glue librarys
 You may learn that Python is a great glueing language.  Instead of reinventing the wheel or trying to be the best at everything, it can wrap around and interface with about any major language.
 
 If you need speed of fast C, C++, or Fortran code, just use it from python! Here is about 5 different way you can do it.
 
-Site: https://docs.scipy.org/doc/numpy-1.10.0/user/c-info.python-as-glue.html
-
+  doc: https://docs.scipy.org/doc/numpy-1.10.0/user/c-info.python-as-glue.html
 
 # FEM
 Some selected FEM softwares you can script and code with Python.
@@ -258,30 +274,39 @@ Some selected FEM softwares you can script and code with Python.
 ## • FEniCS Project
 COMSOL cannot take Python code, how it takes Matlab code.  There is a forum here talking about how COMSOL and python on the COMSOL website, but most is really speculation in my opinion.  
 
-Forum: https://www.comsol.com/forum/thread/107812/python-for-comsol
+  forum: https://www.comsol.com/forum/thread/107812/python-for-comsol
 
 I personally don't think COMSOL will ever make an API to interface with Python.  Not because Python can't, but because COMSOL probably has an agreement with Matlab.  There are more forum post talking about how people are stuck on Matlab, just because they want/need to use COMSOL.  It's just my reasoning for why based on what I have read online, and I want to make sure you don't get any false hopes.
 
 That said, it's not all doom and gloom.  In the open-source community, if something is needed, people make it.  There are other widely known alternatives to COMSOL, Ansys, and Seimens NX.  They sometimes require computer savviness (or time spent, as it is really investment).
+
 Meet FEniCS Project, an open-source computing platform for solive partial differential equations.  It allows you to translate engineering and scientific models into finite element code.  Written in C and C++, you can use Python or C++ to interface with FEniCS, compute, than plot/analyze the results.
+
+  Official site: https://fenicsproject.org/
 
 ## • Elmer
 Elmer is a Muliphysics Simulation Software that competes against COMSOL.
 
-site: https://www.csc.fi/web/elmer/elmer
+  Official site: https://www.csc.fi/web/elmer/elmer
 
-It does have an accoustics module.  Here is a youtube video showing it.
+It does have an accoustics module.  Here is a youtube video showing it,
 
-youtube: https://www.youtube.com/watch?v=dfLHVUcvnDo
+  youtube: https://www.youtube.com/watch?v=dfLHVUcvnDo
 
 Unlike COMSOL, Elmer does allow Python code to run.  You can actually choose to run you Python code as C code, or as TCL code.
 
-wiki: https://wiki.python.org/moin/elmer
+  wiki: https://wiki.python.org/moin/elmer
 
-A forum discussing a simulation comparison between Elmer and COMSOL, by a user.
-Forum: http://www.elmerfem.org/forum/viewtopic.php?t=4306
+A forum discussing a simulation comparison between Elmer and COMSOL, by a user,
+
+  forum: http://www.elmerfem.org/forum/viewtopic.php?t=4306
 
 ## • Coding COMSOL with Python
 This contradicts what was said in the the past two FEM Softwares, Elmer and FEniCS Project, but you can code COMSOL with Python.  This however is a little weird to think about.  COMSOL has two API's, one for Matlab and one for Java.  You essentually use the Java API with Python, as this individual did for there thesis.
 
-github: https://github.com/dilzeem/thesis/blob/master/thesis.org
+  github: https://github.com/dilzeem/thesis/blob/master/thesis.org
+  
+## Others
+Many other FEM softwares that can be coded with Python can be found here,
+
+  site: https://alternativeto.net/software/comsol/?license=opensource
